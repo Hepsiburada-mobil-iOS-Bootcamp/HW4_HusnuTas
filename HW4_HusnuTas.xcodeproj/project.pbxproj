@@ -9,6 +9,16 @@
 /* Begin PBXBuildFile section */
 		BC7FC2CF271A4223005AB4C1 /* CarListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7FC2CE271A4223005AB4C1 /* CarListTableViewCell.swift */; };
 		BC7FC2D2271A4506005AB4C1 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7FC2D1271A4506005AB4C1 /* Car.swift */; };
+		BC7FC2D5271A4E4F005AB4C1 /* BaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7FC2D4271A4E4F005AB4C1 /* BaseTableViewCell.swift */; };
+		BC7FC2D7271A4EE8005AB4C1 /* GenericBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7FC2D6271A4EE8005AB4C1 /* GenericBaseViewController.swift */; };
+		BC7FC2D9271A4F3F005AB4C1 /* CarListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7FC2D8271A4F3F005AB4C1 /* CarListViewModel.swift */; };
+		BC7FC2DD271B3A03005AB4C1 /* CarListViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7FC2DC271B3A03005AB4C1 /* CarListViewBuilder.swift */; };
+		BC7FC2E0271B3E87005AB4C1 /* DefaultNetworkOperationPackage in Frameworks */ = {isa = PBXBuildFile; productRef = BC7FC2DF271B3E87005AB4C1 /* DefaultNetworkOperationPackage */; };
+		BC7FC2E2271B471D005AB4C1 /* CarsApiServiceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7FC2E1271B471D005AB4C1 /* CarsApiServiceProvider.swift */; };
+		BC7FC2E4271B4749005AB4C1 /* BaseRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7FC2E3271B4749005AB4C1 /* BaseRequest.swift */; };
+		BC7FC2EB271B9640005AB4C1 /* FontManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7FC2EA271B9640005AB4C1 /* FontManager.swift */; };
+		BC7FC2EF271B9680005AB4C1 /* GenericValueProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7FC2ED271B9680005AB4C1 /* GenericValueProtocol.swift */; };
+		BC7FC2F0271B9680005AB4C1 /* GenericDataProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7FC2EE271B9680005AB4C1 /* GenericDataProtocol.swift */; };
 		BCBD556827188F6C005A5831 /* CarListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBD556727188F6C005A5831 /* CarListViewController.swift */; };
 		BCBD556C2718920B005A5831 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBD556B2718920B005A5831 /* UIView+Extensions.swift */; };
 		BCC002DF27179A3400B60B35 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC002DE27179A3400B60B35 /* AppDelegate.swift */; };
@@ -40,6 +50,15 @@
 /* Begin PBXFileReference section */
 		BC7FC2CE271A4223005AB4C1 /* CarListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarListTableViewCell.swift; sourceTree = "<group>"; };
 		BC7FC2D1271A4506005AB4C1 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		BC7FC2D4271A4E4F005AB4C1 /* BaseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableViewCell.swift; sourceTree = "<group>"; };
+		BC7FC2D6271A4EE8005AB4C1 /* GenericBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericBaseViewController.swift; sourceTree = "<group>"; };
+		BC7FC2D8271A4F3F005AB4C1 /* CarListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarListViewModel.swift; sourceTree = "<group>"; };
+		BC7FC2DC271B3A03005AB4C1 /* CarListViewBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarListViewBuilder.swift; sourceTree = "<group>"; };
+		BC7FC2E1271B471D005AB4C1 /* CarsApiServiceProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarsApiServiceProvider.swift; sourceTree = "<group>"; };
+		BC7FC2E3271B4749005AB4C1 /* BaseRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseRequest.swift; sourceTree = "<group>"; };
+		BC7FC2EA271B9640005AB4C1 /* FontManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontManager.swift; sourceTree = "<group>"; };
+		BC7FC2ED271B9680005AB4C1 /* GenericValueProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericValueProtocol.swift; sourceTree = "<group>"; };
+		BC7FC2EE271B9680005AB4C1 /* GenericDataProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericDataProtocol.swift; sourceTree = "<group>"; };
 		BCBD556727188F6C005A5831 /* CarListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarListViewController.swift; sourceTree = "<group>"; };
 		BCBD556B2718920B005A5831 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
 		BCC002DB27179A3400B60B35 /* HW4_HusnuTas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HW4_HusnuTas.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC7FC2E0271B3E87005AB4C1 /* DefaultNetworkOperationPackage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,9 +108,65 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		BC7FC2D3271A4E37005AB4C1 /* BaseComponents */ = {
+			isa = PBXGroup;
+			children = (
+				BC7FC2D4271A4E4F005AB4C1 /* BaseTableViewCell.swift */,
+				BC7FC2D6271A4EE8005AB4C1 /* GenericBaseViewController.swift */,
+			);
+			path = BaseComponents;
+			sourceTree = "<group>";
+		};
+		BC7FC2DA271A5009005AB4C1 /* SceneModules */ = {
+			isa = PBXGroup;
+			children = (
+				BC7FC2DB271A5025005AB4C1 /* CarList */,
+			);
+			path = SceneModules;
+			sourceTree = "<group>";
+		};
+		BC7FC2DB271A5025005AB4C1 /* CarList */ = {
+			isa = PBXGroup;
+			children = (
+				BCBD556727188F6C005A5831 /* CarListViewController.swift */,
+				BC7FC2CE271A4223005AB4C1 /* CarListTableViewCell.swift */,
+				BC7FC2D8271A4F3F005AB4C1 /* CarListViewModel.swift */,
+				BC7FC2DC271B3A03005AB4C1 /* CarListViewBuilder.swift */,
+			);
+			path = CarList;
+			sourceTree = "<group>";
+		};
+		BC7FC2E5271B6D4D005AB4C1 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				BC7FC2E1271B471D005AB4C1 /* CarsApiServiceProvider.swift */,
+				BC7FC2E3271B4749005AB4C1 /* BaseRequest.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		BC7FC2E9271B9640005AB4C1 /* FontManagers */ = {
+			isa = PBXGroup;
+			children = (
+				BC7FC2EA271B9640005AB4C1 /* FontManager.swift */,
+			);
+			path = FontManagers;
+			sourceTree = "<group>";
+		};
+		BC7FC2EC271B9680005AB4C1 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				BC7FC2ED271B9680005AB4C1 /* GenericValueProtocol.swift */,
+				BC7FC2EE271B9680005AB4C1 /* GenericDataProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
 		BCBD5569271891E1005A5831 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				BC7FC2EC271B9680005AB4C1 /* Protocols */,
+				BC7FC2E9271B9640005AB4C1 /* FontManagers */,
 				BCBD556A271891ED005A5831 /* Extensions */,
 			);
 			path = Utils;
@@ -127,15 +203,16 @@
 		BCC002DD27179A3400B60B35 /* HW4_HusnuTas */ = {
 			isa = PBXGroup;
 			children = (
+				BC7FC2DA271A5009005AB4C1 /* SceneModules */,
+				BC7FC2D3271A4E37005AB4C1 /* BaseComponents */,
 				BC7FC2D0271A44ED005AB4C1 /* Model */,
+				BC7FC2E5271B6D4D005AB4C1 /* Service */,
 				BCBD5569271891E1005A5831 /* Utils */,
 				BCC002DE27179A3400B60B35 /* AppDelegate.swift */,
 				BCC002E027179A3400B60B35 /* SceneDelegate.swift */,
 				BCC002E727179A3700B60B35 /* Assets.xcassets */,
 				BCC002E927179A3700B60B35 /* LaunchScreen.storyboard */,
 				BCC002EC27179A3700B60B35 /* Info.plist */,
-				BCBD556727188F6C005A5831 /* CarListViewController.swift */,
-				BC7FC2CE271A4223005AB4C1 /* CarListTableViewCell.swift */,
 			);
 			path = HW4_HusnuTas;
 			sourceTree = "<group>";
@@ -173,6 +250,9 @@
 			dependencies = (
 			);
 			name = HW4_HusnuTas;
+			packageProductDependencies = (
+				BC7FC2DF271B3E87005AB4C1 /* DefaultNetworkOperationPackage */,
+			);
 			productName = HW4_HusnuTas;
 			productReference = BCC002DB27179A3400B60B35 /* HW4_HusnuTas.app */;
 			productType = "com.apple.product-type.application";
@@ -245,6 +325,9 @@
 				Base,
 			);
 			mainGroup = BCC002D227179A3400B60B35;
+			packageReferences = (
+				BC7FC2DE271B3E87005AB4C1 /* XCRemoteSwiftPackageReference "DefaultNetworkOperationPackage" */,
+			);
 			productRefGroup = BCC002DC27179A3400B60B35 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -288,11 +371,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				BCC002DF27179A3400B60B35 /* AppDelegate.swift in Sources */,
+				BC7FC2D7271A4EE8005AB4C1 /* GenericBaseViewController.swift in Sources */,
+				BC7FC2EB271B9640005AB4C1 /* FontManager.swift in Sources */,
 				BCC002E127179A3400B60B35 /* SceneDelegate.swift in Sources */,
 				BC7FC2D2271A4506005AB4C1 /* Car.swift in Sources */,
 				BCBD556C2718920B005A5831 /* UIView+Extensions.swift in Sources */,
+				BC7FC2D5271A4E4F005AB4C1 /* BaseTableViewCell.swift in Sources */,
+				BC7FC2EF271B9680005AB4C1 /* GenericValueProtocol.swift in Sources */,
+				BC7FC2E2271B471D005AB4C1 /* CarsApiServiceProvider.swift in Sources */,
 				BC7FC2CF271A4223005AB4C1 /* CarListTableViewCell.swift in Sources */,
+				BC7FC2E4271B4749005AB4C1 /* BaseRequest.swift in Sources */,
+				BC7FC2DD271B3A03005AB4C1 /* CarListViewBuilder.swift in Sources */,
+				BC7FC2F0271B9680005AB4C1 /* GenericDataProtocol.swift in Sources */,
 				BCBD556827188F6C005A5831 /* CarListViewController.swift in Sources */,
+				BC7FC2D9271A4F3F005AB4C1 /* CarListViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -646,6 +738,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BC7FC2DE271B3E87005AB4C1 /* XCRemoteSwiftPackageReference "DefaultNetworkOperationPackage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/husnutass/DefaultNetworkOperationPackage";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BC7FC2DF271B3E87005AB4C1 /* DefaultNetworkOperationPackage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BC7FC2DE271B3E87005AB4C1 /* XCRemoteSwiftPackageReference "DefaultNetworkOperationPackage" */;
+			productName = DefaultNetworkOperationPackage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = BCC002D327179A3400B60B35 /* Project object */;
 }

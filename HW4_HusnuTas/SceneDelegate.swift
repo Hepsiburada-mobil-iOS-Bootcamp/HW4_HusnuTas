@@ -20,7 +20,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         window = UIWindow(windowScene: windowScene)
         
-        let navigationController = UINavigationController(rootViewController: CarListViewController())
+        let navigationController = UINavigationController(rootViewController: CarListViewBuilder.build(viewModel: CarListViewModel()))
         navigationController.navigationBar.prefersLargeTitles = true
         
         window?.rootViewController = navigationController

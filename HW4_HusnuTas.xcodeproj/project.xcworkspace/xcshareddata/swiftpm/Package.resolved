@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "DefaultNetworkOperationPackage",
+        "repositoryURL": "https://github.com/husnutass/DefaultNetworkOperationPackage",
+        "state": {
+          "branch": "main",
+          "revision": "41523b0c3d28a15550aa7b0f4a30e722480e522b",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
